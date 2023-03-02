@@ -7,9 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    Test 
+    Hello world - 
     <?php 
-    echo " from php";
+    echo " from php not!";
+
+    $foo = 'bar';
+
+    include("lecture2.php");
     ?>
 </body>
 </html>
