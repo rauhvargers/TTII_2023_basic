@@ -1,5 +1,6 @@
 <?php
 
+
 $example = "yes";
 
 if ($example ==  "yes") {
@@ -7,7 +8,6 @@ if ($example ==  "yes") {
 } else {
     $output = "bad output";
 }
-
 
 
 //setcookie("testcookie", "testvalue", time()+1000, "/", "", false, true);
@@ -31,6 +31,8 @@ if (isset($_GET["year"])) {
     }
 }
 
+
+var_dump($_SERVER);
 
 
 include("view.php");
